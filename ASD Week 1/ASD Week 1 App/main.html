@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!-- 
+    Scott Waite
+    ASD Week 1
+    Term 1302 -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+        <link rel="stylesheet" href="my.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.2.0/jquery.mobile-1.2.0.min.js">
+        </script>
+        <script src="main.js">
+        </script>
+        
+// Other scripts here
+
+        </script>
+    </head>
+    <body>
+        <!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <h2>
+                    Script King
+                </h2>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="searchInput">
+                        </label>
+                        <input name="" id="searchInput" placeholder="Search" value="" type="search" />
+                    </fieldset>
+                </div>
+                <a id="homeButton" data-role="button" data-theme="b" href="#page1" class="ui-btn-left">
+                    Home
+                </a>
+            </div>
+
+
+<!-- Order Entry -->
+
+
+            <div data-role="content">
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Order Entry
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page2" data-transition="slide">
+                            Invoice
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page2" data-transition="slide">
+                            Prepay
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page2" data-transition="slide">
+                            EPS
+                        </a>
+                    </li>
+                </ul>
+            </div>
+<!-- End Order Entry -->
+
+
+<!-- Order Assignment -->
+
+
+
+
+            <div data-role="content">
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Order Assignment
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page2" data-transition="slide">
+                            TBA
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page2" data-transition="slide">
+                            RBA
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page2" data-transition="slide">
+                            Manual Task
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+<!-- End Order Assignment -->
+
+            <div data-theme="a" data-role="footer" data-position="fixed">
+                <h3>
+                    Footer
+                </h3>
+                <a data-role="button" data-theme="b" href="https://pipefire.streetlinks.com" class="ui-btn-left">
+                    PipeFire
+                </a>
+                <a data-role="button" data-theme="b" href="#page1" class="ui-btn-right">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Page 2 -->
+
+ <div data-role="page" id="page2">
+            <div data-theme="a" data-role="header">
+                <h2>
+                    Script King
+                </h2>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="searchInput">
+                        </label>
+                        <input name="" id="searchInput" placeholder="Search" value="" type="search" />
+                    </fieldset>
+                </div>
+                <a id="homeButton" data-role="button" data-theme="b" href="#page1" class="ui-btn-left">
+                    Home
+                </a>
+            </div>
+            <div data-role="content">
+                <div data-role="collapsible-set" data-theme="c" data-content-theme="c">
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h3>
+                            Invoice
+                        </h3>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup">
+                                <label for="textarea4">
+                                </label>
+                                <textarea name="" id="textarea4" placeholder="">
+                                    Good Day! Thank you for your order, it will be processed immediatley. Have a great day! - Scott
+                                </textarea>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>
+                            Prepay
+                        </h3>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup">
+                                <label for="textarea1">
+                                </label>
+                                <textarea name="" id="textarea1" placeholder="">
+                                    The Credit Card information that you have provided has been processed and approved! - Scott
+                                </textarea>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>
+                            EPS
+                        </h3>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup">
+                                <label for="textarea3">
+                                </label>
+                                <textarea name="" id="textarea3" placeholder="">
+                                    Good Day! The credit card information that you have provided has been processed. Once verification has been receieved, we will proceed with this order. We appreciate your business! - Scott
+                                </textarea>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+                <h3>
+                    Footer
+                </h3>
+                <a data-role="button" data-theme="b" href="#page1" class="ui-btn-left">
+                    PipeFire
+                </a>
+                <a data-role="button" data-theme="b" href="#page1" class="ui-btn-right">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Page 3 -->
+
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <h2>
+                    Script King
+                </h2>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="searchInput">
+                        </label>
+                        <input name="" id="searchInput" placeholder="Search" value="" type="search" />
+                    </fieldset>
+                </div>
+                <a id="homeButton" data-role="button" data-theme="b" href="#page1" class="ui-btn-left">
+                    Home
+                </a>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Order Entry
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Invoice
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Prepay
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            EPS
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+                <h3>
+                    Footer
+                </h3>
+                <a data-role="button" data-theme="b" href="https://pipefire.streetlinks.com" class="ui-btn-left">
+                    PipeFire
+                </a>
+                <a data-role="button" data-theme="b" href="#page1" class="ui-btn-right">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
