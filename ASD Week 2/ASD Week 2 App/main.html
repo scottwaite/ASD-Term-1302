@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<!-- 
+    Scott Waite
+    ASD Week 1
+    Term 1302 -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+        <link rel="stylesheet" href="my.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.2.0/jquery.mobile-1.2.0.min.js">
+        </script>
+        <script src="main.js">
+        </script>
+        </head>
+// Other scripts here
+
+    
+    <body>
+        <!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <h2>
+                    Script King
+                </h2>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="searchInput">
+                        </label>
+                        <input name="" id="searchInput" placeholder="Search" value="" type="search" />
+                    </fieldset>
+                </div>
+                <a id="homeButton" data-role="button" data-theme="b" href="#page1" class="ui-btn-left">
+                    Home
+                </a>
+            </div>
+
+<!-- First Set of Options Start -->
+
+ <div data-role="content">
+          <div style=" text-align:center">
+              <img style="width: 239px; height: 57px" src="https://www.streetlinks.com/static/images/SL-logo.png">
+          </div>
+          <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+              <div data-role="collapsible" data-collapsed="false">
+                  <h3>
+                      Status
+                  </h3>
+                  <div data-role="collapsible-set" data-theme="c" data-content-theme="c">
+                      <div data-role="collapsible">
+                          <h3>
+                              To Be Scheduled
+                          </h3>
+                          <div data-role="collapsible-set">
+                              <div data-role="collapsible">
+                                  <h3>
+                                      Call - Not Scheduled
+                                  </h3>
+                                  <div data-role="fieldcontain">
+                                      <fieldset data-role="controlgroup">
+                                          <label for="textarea6">
+                                              Client
+                                          </label>
+                                          <textarea name="" id="textarea6" placeholder="">Good Day! We were able to reach the appraiser for a scheduling update on this order. According to the appraiser, 2 calls have been made to the property contact with no return call and they will attempt to reach the property contact again today. Our office will be sure to keep you updated as new information becomes available. Thanks – Scott</textarea>
+                                      </fieldset>
+                                  </div>
+                                  <div data-role="fieldcontain">
+                                      <fieldset data-role="controlgroup">
+                                          <label for="textarea7">
+                                              Appraiser
+                                          </label>
+                                          <textarea name="" id="textarea7" placeholder="">Good Day &lt;NAME&gt;! Per our conversation, you have contacted the property contact (X) times since accepting this appraisal assignment. Please continue your daily attempts to contact the property contact. In the event that an inspection has not been scheduled in our system, we will follow up with you the next business day.  Thanks!  – Scott</textarea>
+                                      </fieldset>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div data-role="collapsible">
+                          <h3>
+                              Scheduled In Process
+                          </h3>
+                          <div data-role="collapsible-set">
+                              <div data-role="collapsible">
+                                  <h3>
+                                      Call
+                                  </h3>
+                                  <div data-role="fieldcontain">
+                                      <fieldset data-role="controlgroup">
+                                          <label for="textarea10">
+                                              Client
+                                          </label>
+                                          <textarea name="" id="textarea10" placeholder="">Good Day! Per my conversation with the Appraiser, they are actively working on the order and expect to submit the order to our review department by &lt;ETA&gt;. Assuming no revisions are needed at the time of review by our Quality Control team, the report will be made readily available to you.  We will continue to keep you informed of any new information. Thank you! – Scott</textarea>
+                                      </fieldset>
+                                  </div>
+                                  <div data-role="fieldcontain">
+                                      <fieldset data-role="controlgroup">
+                                          <label for="textarea11">
+                                              Title
+                                          </label>
+                                          <textarea name="" id="textarea11" placeholder="Appraiser">Good Day  &lt;NAME&gt;! Per our conversation, this report was due on XX/XX. You advised that you are actively working on this report and expect to have it submitted by &lt;DATE&gt;.  Please notify us if you foresee any delays. We look forward to receiving your report. Thanks! – Scott</textarea>
+                                      </fieldset>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+ <div data-role="collapsible-set" data-theme="b">
+            <div data-role="collapsible">
+                <h3>
+                    Order Entry
+                </h3>
+                <div data-role="collapsible-set" data-theme="d">
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h3>
+                            Invoice
+                        </h3>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup">
+                                <label for="textarea3">
+                                </label>
+                                <textarea name="" id="textarea3" placeholder="">Good Day! Thank you for your order, it will be processed immediatley. Have a great day! - Scott</textarea>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>
+                            Prepay
+                        </h3>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup">
+                                <label for="textarea2">
+                                </label>
+                                <textarea name="" id="textarea2" placeholder="">Good Day! The Credit Card information that you have provided has been processed and approved! - Scott</textarea>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>
+                            EPS
+                        </h3>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup">
+                                <label for="textarea1">
+                                </label>
+                                <textarea name="" id="textarea1" placeholder="">Good Day! Thank you for your order, it will be processed immediatley. Have a great day! - Scott</textarea>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-role="collapsible">
+                <h3>
+                    Order Assignment
+                </h3>
+                <div data-role="collapsible-set" data-theme="d">
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h3>
+                            URAR
+                        </h3>
+                        <div data-role="collapsible-set">
+                            <div data-role="collapsible" data-collapsed="false">
+                                <h3>
+                                    Basic Purchase
+                                </h3>
+                                <div data-role="fieldcontain">
+                                    <fieldset data-role="controlgroup">
+                                        <label for="textarea5">
+                                        </label>
+                                        <textarea name="" id="textarea5" placeholder="">AP – (INCLUDE RELEVANT MESSAGE FROM LO)   This appraisal request may require UAD compliance.  Please check the ‘Order Details’ section of the StreetLinks order form/web page for the instructions ‘UAD Required’ prior to writing this report.  Please be advised that if this assignment is for a purchase transaction, please try and obtain a copy of the fully executed purchase agreement with any applicable executed riders from the property contact either before, at, or after the date of inspection  Prior to the inspection, please review the attached link in the Service Terms Tab for the LENDER SPECIFIC REQUIREMENTS &amp; GUIDELINE REFERENCE ASSIGNMENT CONDITIONS.  Please be sure to review the client specific guidelines for possible updates as changes may have occurred since your last assignment.  You are expected to update the StreetLinks website and utilize the “StreetLinks Communication Log” as your primary source of communication throughout this transaction.   Thank you! - Scott </textarea>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+<!-- First Set of Options End -->
+
+
+
+
+
+<!-- Begin Footer -->
+
+            <div data-theme="a" data-role="footer" data-position="fixed">
+                <h3>
+                    © Scott Waite
+                </h3>
+                <a data-role="button" data-theme="b" href="https://pipefire.streetlinks.com" class="ui-btn-left">
+                    PipeFire
+                </a>
+                <a data-role="button" data-theme="b" href="#page1" class="ui-btn-right">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+
+<!-- End Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Page 2 -->
+
+ <div data-role="page" id="page2">
+            <div data-theme="a" data-role="header">
+                <h2>
+                    Script King
+                </h2>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="searchInput">
+                        </label>
+                        <input name="" id="searchInput" placeholder="Search" value="" type="search" />
+                    </fieldset>
+                </div>
+                <a id="homeButton" data-role="button" data-theme="b" href="#page1" class="ui-btn-left">
+                    Home
+                </a>
+            </div>
+            <div data-role="content">
+                <div data-role="collapsible-set" data-theme="c" data-content-theme="c">
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h3>
+                            Invoice
+                        </h3>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup">
+                                <label for="textarea4">
+                                </label>
+                                <textarea name="" id="textarea4" placeholder="">
+                                    Good Day! Thank you for your order, it will be processed immediatley. Have a great day! - Scott
+                                </textarea>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>
+                            Prepay
+                        </h3>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup">
+                                <label for="textarea1">
+                                </label>
+                                <textarea name="" id="textarea1" placeholder="">
+                                    The Credit Card information that you have provided has been processed and approved! - Scott
+                                </textarea>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>
+                            EPS
+                        </h3>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup">
+                                <label for="textarea3">
+                                </label>
+                                <textarea name="" id="textarea3" placeholder="">
+                                    Good Day! The credit card information that you have provided has been processed. Once verification has been receieved, we will proceed with this order. We appreciate your business! - Scott
+                                </textarea>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+                <h3>
+                    Footer
+                </h3>
+                <a data-role="button" data-theme="b" href="#page1" class="ui-btn-left">
+                    PipeFire
+                </a>
+                <a data-role="button" data-theme="b" href="#page1" class="ui-btn-right">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Page 3 -->
+
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <h2>
+                    Script King
+                </h2>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="searchInput">
+                        </label>
+                        <input name="" id="searchInput" placeholder="Search" value="" type="search" />
+                    </fieldset>
+                </div>
+                <a id="homeButton" data-role="button" data-theme="b" href="#page1" class="ui-btn-left">
+                    Home
+                </a>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Order Entry
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Invoice
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Prepay
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            EPS
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+                <h3>
+                    Footer
+                </h3>
+                <a data-role="button" data-theme="b" href="https://pipefire.streetlinks.com" class="ui-btn-left">
+                    PipeFire
+                </a>
+                <a data-role="button" data-theme="b" href="#page1" class="ui-btn-right">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
